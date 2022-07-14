@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/idf_crypto_service?currentSchema=crypto_watcher
+    username: postgres
+    password: postgres
+  jpa:
+    show-sql: true
+
+server:
+  port: 8081
+
+fixedDelay:
+  in:
+    milliseconds: 60000
+
+crypto:
+  BTC: 90
+  ETH: 80
+  SOL: 48543
+
+percent:
+  price:
+    change: 1
