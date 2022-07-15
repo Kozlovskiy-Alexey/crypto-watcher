@@ -8,6 +8,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
+import java.math.BigDecimal;
 
 @Data
 @NoArgsConstructor
@@ -20,5 +21,5 @@ public class UserDto implements Serializable {
     private String symbol;
 
     @JsonProperty("entry_price")
-    private Double entryPrice;
+    private BigDecimal entryPrice;
 }

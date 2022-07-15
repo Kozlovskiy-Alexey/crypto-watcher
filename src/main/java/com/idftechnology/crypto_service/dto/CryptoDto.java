@@ -9,6 +9,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
+import java.math.BigDecimal;
 
 @Builder
 @Data
@@ -30,7 +31,7 @@ public class CryptoDto implements Serializable {
 
     @JsonFormat(shape = JsonFormat.Shape.STRING)
     @JsonProperty("price_usd")
-    private double priceUsd;
+    private BigDecimal priceUsd;
 
     @JsonFormat(shape = JsonFormat.Shape.STRING)
     @JsonProperty("percent_change_24h")
@@ -46,25 +47,25 @@ public class CryptoDto implements Serializable {
 
     @JsonFormat(shape = JsonFormat.Shape.STRING)
     @JsonProperty("market_cap_usd")
-    private double marketCapUsd;
+    private BigDecimal marketCapUsd;
 
     @JsonFormat(shape = JsonFormat.Shape.STRING)
-    private double volume24;
+    private BigDecimal volume24;
 
     @JsonFormat(shape = JsonFormat.Shape.STRING)
     @JsonProperty("volume24_native")
-    private double volume24Native;
+    private BigDecimal volume24Native;
 
-    private double csupply;
+    private BigDecimal csupply;
 
     @JsonFormat(shape = JsonFormat.Shape.STRING)
     @JsonProperty("price_btc")
-    private double priceBtc;
+    private BigDecimal priceBtc;
 
     @JsonFormat(shape = JsonFormat.Shape.STRING)
-    private double tsupply;
+    private BigDecimal tsupply;
 
     @JsonFormat(shape = JsonFormat.Shape.STRING)
-    private double msupply;
+    private BigDecimal msupply;
 
 }

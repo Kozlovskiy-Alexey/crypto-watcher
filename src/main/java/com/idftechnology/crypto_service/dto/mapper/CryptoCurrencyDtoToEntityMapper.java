@@ -13,6 +13,7 @@ public final class CryptoCurrencyDtoToEntityMapper implements IDtoToEntityMapper
         return CryptoCurrencyDto.builder()
                 .id(entity.getId())
                 .symbol(entity.getSymbol())
+                .name(entity.getCryptoName())
                 .nameid(entity.getNameId())
                 .build();
     }

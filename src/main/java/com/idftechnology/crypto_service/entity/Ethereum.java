@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.math.BigDecimal;
 
 @Data
 @NoArgsConstructor
@@ -25,7 +26,7 @@ public class Ethereum {
     private Integer rank;
 
     @Column(name = "price_usd")
-    private Double priceUsd;
+    private BigDecimal priceUsd;
 
     @Column(name = "percent_change_24h")
     private Double percentChange24h;
@@ -37,21 +38,20 @@ public class Ethereum {
     private Double percentChange7d;
 
     @Column(name = "market_cap_usd")
-    private Double marketCapUsd;
+    private BigDecimal marketCapUsd;
 
-    private Double volume24;
+    private BigDecimal volume24;
 
     @Column(name = "volume24_native")
-    private Double volume24Native;
+    private BigDecimal volume24Native;
 
-    private Double csupply;
+    private BigDecimal csupply;
 
     @Column(name = "price_btc")
-    private Double priceBtc;
+    private BigDecimal priceBtc;
 
-    private Double tsupply;
+    private BigDecimal tsupply;
 
-    private Double msupply;
-
+    private BigDecimal msupply;
 
 }

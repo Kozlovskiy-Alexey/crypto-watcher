@@ -10,6 +10,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import java.io.Serializable;
+import java.math.BigDecimal;
 
 @Data
 @NoArgsConstructor
@@ -24,5 +25,5 @@ public class User implements Serializable {
     private String symbol;
 
     @Column(name = "entry_price")
-    private Double entryPrice;
+    private BigDecimal entryPrice;
 }
