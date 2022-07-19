@@ -1,57 +1,24 @@
-2022-07-15 09:37:25,830 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-07-15 09:37:26,997 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: someuser@gmail.com, price change %: 3.5095268102141697
-2022-07-15 09:37:26,997 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: someuser1@gmail.com, price change %: 4.398107684550778
-2022-07-15 09:37:26,997 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: someuser3@gmail.com, price change %: 4.247059642566353
-2022-07-15 09:37:26,998 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: , price change %: 5.043800677813781
-2022-07-15 09:37:26,998 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: 91, price change %: 4.72784016558363
-2022-07-15 09:37:26,998 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: alex@gmail.com, price change %: 4.702316501175763
-2022-07-15 09:37:26,998 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: alex2@gmail.com, price change %: 4.290728026276214
-2022-07-15 09:37:26,999 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: alexmerphy@gmail.com, price change %: 3.98665261678961
-2022-07-15 09:37:26,999 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: alexmerphy1@gmail.com, price change %: 1.6570696275233665
-2022-07-15 09:37:27,227 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 80, user: someuser4@gmail.com, price change %: 10.648773273811152
-2022-07-15 09:37:27,228 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 80, user: vasiliy@gmail.com, price change %: 5.744583728361241
-2022-07-15 09:37:27,466 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 48543, user: someuser5@gmail.com, price change %: 8.954785672342913
-2022-07-15 09:37:27,467 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 48543, user: someuser6@gmail.com, price change %: 9.307805596465379
-2022-07-15 09:38:27,855 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: someuser@gmail.com, price change %: 3.5095268102141697
-2022-07-15 09:38:27,857 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: someuser1@gmail.com, price change %: 4.398107684550778
-2022-07-15 09:38:27,858 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: someuser3@gmail.com, price change %: 4.247059642566353
-2022-07-15 09:38:27,859 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: , price change %: 5.043800677813781
-2022-07-15 09:38:27,860 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: 91, price change %: 4.72784016558363
-2022-07-15 09:38:27,861 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: alex@gmail.com, price change %: 4.702316501175763
-2022-07-15 09:38:27,861 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: alex2@gmail.com, price change %: 4.290728026276214
-2022-07-15 09:38:27,862 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: alexmerphy@gmail.com, price change %: 3.98665261678961
-2022-07-15 09:38:27,863 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: alexmerphy1@gmail.com, price change %: 1.6570696275233665
-2022-07-15 09:38:28,105 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 80, user: someuser4@gmail.com, price change %: 10.648773273811152
-2022-07-15 09:38:28,105 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 80, user: vasiliy@gmail.com, price change %: 5.744583728361241
-2022-07-15 09:38:28,328 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 48543, user: someuser5@gmail.com, price change %: 8.954785672342913
-2022-07-15 09:38:28,328 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 48543, user: someuser6@gmail.com, price change %: 9.307805596465379
-2022-07-15 09:39:02,151 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-07-15 09:39:02,985 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: someuser@gmail.com, price change %: 3.5095268102141697
-2022-07-15 09:39:02,986 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: someuser1@gmail.com, price change %: 4.398107684550778
-2022-07-15 09:39:02,986 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: someuser3@gmail.com, price change %: 4.247059642566353
-2022-07-15 09:39:02,986 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: , price change %: 5.043800677813781
-2022-07-15 09:39:02,986 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: 91, price change %: 4.72784016558363
-2022-07-15 09:39:02,987 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: alex@gmail.com, price change %: 4.702316501175763
-2022-07-15 09:39:02,987 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: alex2@gmail.com, price change %: 4.290728026276214
-2022-07-15 09:39:02,987 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: alexmerphy@gmail.com, price change %: 3.98665261678961
-2022-07-15 09:39:02,988 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: alexmerphy1@gmail.com, price change %: 1.6570696275233665
-2022-07-15 09:39:03,234 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 80, user: someuser4@gmail.com, price change %: 10.648773273811152
-2022-07-15 09:39:03,234 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 80, user: vasiliy@gmail.com, price change %: 5.744583728361241
-2022-07-15 09:39:03,440 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 48543, user: someuser5@gmail.com, price change %: 8.954785672342913
-2022-07-15 09:39:03,441 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 48543, user: someuser6@gmail.com, price change %: 9.307805596465379
-2022-07-15 10:39:39,036 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: alex1@gmail.com, price change %: 5.910249841409265
-2022-07-15 10:40:50,504 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: alex1@gmail.com, price change %: 5.910249841409265
-2022-07-15 10:40:52,444 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 48543, user: nik2@gmail.com, price change %: 23.636968085106382
-2022-07-15 14:51:41,241 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-07-15 14:55:51,532 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-07-15 14:58:49,962 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-07-15 15:00:30,237 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-07-15 15:01:30,626 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-07-15 15:02:17,790 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-07-15 15:02:18,872 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [ThreadPoolTaskScheduler1] Unexpected error occurred in scheduled task
+2022-07-19 15:53:38,923 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [D:\new job\crypto_currency_watcher\crypto-service\crypto-service\target\classes\com\idftechnology\crypto_service\controller\UserController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService' defined in file [D:\new job\crypto_currency_watcher\crypto-service\crypto-service\target\classes\com\idftechnology\crypto_service\service\UserService.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'restService' defined in file [D:\new job\crypto_currency_watcher\crypto-service\crypto-service\target\classes\com\idftechnology\crypto_service\service\RestService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-07-19 15:53:38,970 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.idftechnology.crypto_service.service.RestService required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+
+2022-07-19 15:54:51,711 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-19 15:54:53,033 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [ThreadPoolTaskScheduler1] Unexpected error occurred in scheduled task
 java.lang.NullPointerException: Cannot invoke "java.math.BigDecimal.doubleValue()" because "entryPrice" is null
 	at com.idftechnology.crypto_service.service.util.PriceChecker.checkPriceChange(PriceChecker.java:11)
-	at com.idftechnology.crypto_service.service.UserService.lambda$warnPriceChange$0(UserService.java:64)
+	at com.idftechnology.crypto_service.service.UserService.lambda$warnPriceChange$0(UserService.java:57)
 	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
 	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
@@ -59,7 +26,7 @@ java.lang.NullPointerException: Cannot invoke "java.math.BigDecimal.doubleValue(
 	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
 	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-	at com.idftechnology.crypto_service.service.UserService.warnPriceChange(UserService.java:65)
+	at com.idftechnology.crypto_service.service.UserService.warnPriceChange(UserService.java:58)
 	at com.idftechnology.crypto_service.service.UserService$$FastClassBySpringCGLIB$$1ac86f7e.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
@@ -71,8 +38,8 @@ java.lang.NullPointerException: Cannot invoke "java.math.BigDecimal.doubleValue(
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
-	at com.idftechnology.crypto_service.service.UserService$$EnhancerBySpringCGLIB$$5446a59f.warnPriceChange(<generated>)
-	at com.idftechnology.crypto_service.scheduler.ScheduleCryptoJobTask.run(ScheduleCryptoJobTask.java:38)
+	at com.idftechnology.crypto_service.service.UserService$$EnhancerBySpringCGLIB$$7a280197.warnPriceChange(<generated>)
+	at com.idftechnology.crypto_service.scheduler.ScheduleCryptoJobTask.run(ScheduleCryptoJobTask.java:32)
 	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
 	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
@@ -81,11 +48,11 @@ java.lang.NullPointerException: Cannot invoke "java.math.BigDecimal.doubleValue(
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2022-07-15 15:05:07,239 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-07-15 15:05:09,338 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [ThreadPoolTaskScheduler1] Unexpected error occurred in scheduled task
+2022-07-19 15:55:26,999 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-19 15:55:27,906 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [ThreadPoolTaskScheduler1] Unexpected error occurred in scheduled task
 java.lang.NullPointerException: Cannot invoke "java.math.BigDecimal.doubleValue()" because "entryPrice" is null
 	at com.idftechnology.crypto_service.service.util.PriceChecker.checkPriceChange(PriceChecker.java:11)
-	at com.idftechnology.crypto_service.service.UserService.lambda$warnPriceChange$0(UserService.java:64)
+	at com.idftechnology.crypto_service.service.UserService.lambda$warnPriceChange$0(UserService.java:57)
 	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
 	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
@@ -93,7 +60,7 @@ java.lang.NullPointerException: Cannot invoke "java.math.BigDecimal.doubleValue(
 	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
 	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-	at com.idftechnology.crypto_service.service.UserService.warnPriceChange(UserService.java:65)
+	at com.idftechnology.crypto_service.service.UserService.warnPriceChange(UserService.java:58)
 	at com.idftechnology.crypto_service.service.UserService$$FastClassBySpringCGLIB$$1ac86f7e.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
@@ -105,8 +72,8 @@ java.lang.NullPointerException: Cannot invoke "java.math.BigDecimal.doubleValue(
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
-	at com.idftechnology.crypto_service.service.UserService$$EnhancerBySpringCGLIB$$5446a59f.warnPriceChange(<generated>)
-	at com.idftechnology.crypto_service.scheduler.ScheduleCryptoJobTask.run(ScheduleCryptoJobTask.java:38)
+	at com.idftechnology.crypto_service.service.UserService$$EnhancerBySpringCGLIB$$21196901.warnPriceChange(<generated>)
+	at com.idftechnology.crypto_service.scheduler.ScheduleCryptoJobTask.run(ScheduleCryptoJobTask.java:32)
 	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
 	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
@@ -115,51 +82,10 @@ java.lang.NullPointerException: Cannot invoke "java.math.BigDecimal.doubleValue(
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2022-07-15 15:06:51,078 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-07-15 15:06:52,218 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [ThreadPoolTaskScheduler1] Unexpected error occurred in scheduled task
-org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'dataSourceScriptDatabaseInitializer': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory$1.orderedStream(DefaultListableBeanFactory.java:481)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.detectPersistenceExceptionTranslators(PersistenceExceptionTranslationInterceptor.java:167)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:149)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
-	at jdk.proxy2/jdk.proxy2.$Proxy122.save(Unknown Source)
-	at com.idftechnology.crypto_service.service.CryptoService.add(CryptoService.java:87)
-	at com.idftechnology.crypto_service.service.CryptoService$$FastClassBySpringCGLIB$$1e0f94c8.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
-	at com.idftechnology.crypto_service.service.CryptoService$$EnhancerBySpringCGLIB$$4830b3bd.add(<generated>)
-	at com.idftechnology.crypto_service.scheduler.ScheduleCryptoJobTask.run(ScheduleCryptoJobTask.java:37)
-	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
-	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-2022-07-15 15:07:12,258 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-07-15 15:07:13,330 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [ThreadPoolTaskScheduler1] Unexpected error occurred in scheduled task
+2022-07-19 15:56:28,373 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [ThreadPoolTaskScheduler1] Unexpected error occurred in scheduled task
 java.lang.NullPointerException: Cannot invoke "java.math.BigDecimal.doubleValue()" because "entryPrice" is null
 	at com.idftechnology.crypto_service.service.util.PriceChecker.checkPriceChange(PriceChecker.java:11)
-	at com.idftechnology.crypto_service.service.UserService.lambda$warnPriceChange$0(UserService.java:64)
+	at com.idftechnology.crypto_service.service.UserService.lambda$warnPriceChange$0(UserService.java:57)
 	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
 	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
@@ -167,7 +93,7 @@ java.lang.NullPointerException: Cannot invoke "java.math.BigDecimal.doubleValue(
 	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
 	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-	at com.idftechnology.crypto_service.service.UserService.warnPriceChange(UserService.java:65)
+	at com.idftechnology.crypto_service.service.UserService.warnPriceChange(UserService.java:58)
 	at com.idftechnology.crypto_service.service.UserService$$FastClassBySpringCGLIB$$1ac86f7e.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
@@ -179,8 +105,8 @@ java.lang.NullPointerException: Cannot invoke "java.math.BigDecimal.doubleValue(
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
-	at com.idftechnology.crypto_service.service.UserService$$EnhancerBySpringCGLIB$$5446a59f.warnPriceChange(<generated>)
-	at com.idftechnology.crypto_service.scheduler.ScheduleCryptoJobTask.run(ScheduleCryptoJobTask.java:38)
+	at com.idftechnology.crypto_service.service.UserService$$EnhancerBySpringCGLIB$$21196901.warnPriceChange(<generated>)
+	at com.idftechnology.crypto_service.scheduler.ScheduleCryptoJobTask.run(ScheduleCryptoJobTask.java:32)
 	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
 	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
@@ -189,3 +115,331 @@ java.lang.NullPointerException: Cannot invoke "java.math.BigDecimal.doubleValue(
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-07-19 15:57:28,930 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [ThreadPoolTaskScheduler2] Unexpected error occurred in scheduled task
+java.lang.NullPointerException: Cannot invoke "java.math.BigDecimal.doubleValue()" because "entryPrice" is null
+	at com.idftechnology.crypto_service.service.util.PriceChecker.checkPriceChange(PriceChecker.java:11)
+	at com.idftechnology.crypto_service.service.UserService.lambda$warnPriceChange$0(UserService.java:57)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at com.idftechnology.crypto_service.service.UserService.warnPriceChange(UserService.java:58)
+	at com.idftechnology.crypto_service.service.UserService$$FastClassBySpringCGLIB$$1ac86f7e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.idftechnology.crypto_service.service.UserService$$EnhancerBySpringCGLIB$$21196901.warnPriceChange(<generated>)
+	at com.idftechnology.crypto_service.scheduler.ScheduleCryptoJobTask.run(ScheduleCryptoJobTask.java:32)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-07-19 15:58:29,490 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [ThreadPoolTaskScheduler2] Unexpected error occurred in scheduled task
+java.lang.NullPointerException: Cannot invoke "java.math.BigDecimal.doubleValue()" because "entryPrice" is null
+	at com.idftechnology.crypto_service.service.util.PriceChecker.checkPriceChange(PriceChecker.java:11)
+	at com.idftechnology.crypto_service.service.UserService.lambda$warnPriceChange$0(UserService.java:57)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at com.idftechnology.crypto_service.service.UserService.warnPriceChange(UserService.java:58)
+	at com.idftechnology.crypto_service.service.UserService$$FastClassBySpringCGLIB$$1ac86f7e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.idftechnology.crypto_service.service.UserService$$EnhancerBySpringCGLIB$$21196901.warnPriceChange(<generated>)
+	at com.idftechnology.crypto_service.scheduler.ScheduleCryptoJobTask.run(ScheduleCryptoJobTask.java:32)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-07-19 15:58:52,032 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-19 15:58:53,684 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [ThreadPoolTaskScheduler1] Unexpected error occurred in scheduled task
+java.lang.NullPointerException: Cannot invoke "java.math.BigDecimal.doubleValue()" because "entryPrice" is null
+	at com.idftechnology.crypto_service.service.util.PriceChecker.checkPriceChange(PriceChecker.java:11)
+	at com.idftechnology.crypto_service.service.UserService.lambda$warnPriceChange$0(UserService.java:57)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at com.idftechnology.crypto_service.service.UserService.warnPriceChange(UserService.java:58)
+	at com.idftechnology.crypto_service.service.UserService$$FastClassBySpringCGLIB$$1ac86f7e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.idftechnology.crypto_service.service.UserService$$EnhancerBySpringCGLIB$$21196901.warnPriceChange(<generated>)
+	at com.idftechnology.crypto_service.scheduler.ScheduleCryptoJobTask.run(ScheduleCryptoJobTask.java:32)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-07-19 15:59:54,162 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [ThreadPoolTaskScheduler1] Unexpected error occurred in scheduled task
+java.lang.NullPointerException: Cannot invoke "java.math.BigDecimal.doubleValue()" because "entryPrice" is null
+	at com.idftechnology.crypto_service.service.util.PriceChecker.checkPriceChange(PriceChecker.java:11)
+	at com.idftechnology.crypto_service.service.UserService.lambda$warnPriceChange$0(UserService.java:57)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at com.idftechnology.crypto_service.service.UserService.warnPriceChange(UserService.java:58)
+	at com.idftechnology.crypto_service.service.UserService$$FastClassBySpringCGLIB$$1ac86f7e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.idftechnology.crypto_service.service.UserService$$EnhancerBySpringCGLIB$$21196901.warnPriceChange(<generated>)
+	at com.idftechnology.crypto_service.scheduler.ScheduleCryptoJobTask.run(ScheduleCryptoJobTask.java:32)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-07-19 16:01:16,028 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-19 16:02:25,291 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m10s880ms332µs201ns).
+2022-07-19 16:03:24,119 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s827ms621µs100ns).
+2022-07-19 16:04:48,414 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m24s295ms737µs599ns).
+2022-07-19 16:04:48,425 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [ThreadPoolTaskScheduler1] Unexpected error occurred in scheduled task
+java.lang.NullPointerException: Cannot invoke "java.math.BigDecimal.doubleValue()" because "entryPrice" is null
+	at com.idftechnology.crypto_service.service.util.PriceChecker.checkPriceChange(PriceChecker.java:11)
+	at com.idftechnology.crypto_service.service.UserService.lambda$warnPriceChange$0(UserService.java:57)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at com.idftechnology.crypto_service.service.UserService.warnPriceChange(UserService.java:58)
+	at com.idftechnology.crypto_service.service.UserService$$FastClassBySpringCGLIB$$1ac86f7e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.idftechnology.crypto_service.service.UserService$$EnhancerBySpringCGLIB$$51b42206.warnPriceChange(<generated>)
+	at com.idftechnology.crypto_service.scheduler.ScheduleCryptoJobTask.run(ScheduleCryptoJobTask.java:32)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-07-19 16:04:56,595 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-19 16:07:22,032 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [ThreadPoolTaskScheduler1] Unexpected error occurred in scheduled task
+java.lang.NullPointerException: Cannot invoke "java.math.BigDecimal.doubleValue()" because "entryPrice" is null
+	at com.idftechnology.crypto_service.service.util.PriceChecker.checkPriceChange(PriceChecker.java:11)
+	at com.idftechnology.crypto_service.service.UserService.lambda$warnPriceChange$0(UserService.java:57)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at com.idftechnology.crypto_service.service.UserService.warnPriceChange(UserService.java:58)
+	at com.idftechnology.crypto_service.service.UserService$$FastClassBySpringCGLIB$$1ac86f7e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.idftechnology.crypto_service.service.UserService$$EnhancerBySpringCGLIB$$35c6cb19.warnPriceChange(<generated>)
+	at com.idftechnology.crypto_service.scheduler.ScheduleCryptoJobTask.run(ScheduleCryptoJobTask.java:32)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-07-19 16:07:28,606 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-19 16:07:29,504 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: alex2@gmail.com, price change %: 7.292359993189268
+2022-07-19 16:07:29,504 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: nik@gmail.com, price change %: 7.028274551263269
+2022-07-19 16:07:29,504 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: alex1@gmail.com, price change %: 12.746069796190573
+2022-07-19 16:07:29,505 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: k@gmail.com, price change %: 10.904249999999994
+2022-07-19 16:07:29,505 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: new1@gmail.com, price change %: 6.6831703407141285
+2022-07-19 16:07:29,505 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: new2@gmail.com, price change %: 6.712425844200998
+2022-07-19 16:07:29,505 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: new3@gmail.com, price change %: 6.7423138132639115
+2022-07-19 16:07:30,046 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 48543, user: nik2@gmail.com, price change %: 55.98404255319149
+2022-07-19 16:08:30,518 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: alex2@gmail.com, price change %: 7.202582270447655
+2022-07-19 16:08:30,519 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: nik@gmail.com, price change %: 6.938717804083994
+2022-07-19 16:08:30,520 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: alex1@gmail.com, price change %: 12.651728639047487
+2022-07-19 16:08:30,520 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: k@gmail.com, price change %: 10.811450000000011
+2022-07-19 16:08:30,520 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: new1@gmail.com, price change %: 6.593902362186532
+2022-07-19 16:08:30,521 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: new2@gmail.com, price change %: 6.623133385901703
+2022-07-19 16:08:30,521 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: new3@gmail.com, price change %: 6.652996345972362
+2022-07-19 16:08:31,091 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 48543, user: nik2@gmail.com, price change %: 55.684840425531924
+2022-07-19 16:09:33,023 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: alex2@gmail.com, price change %: 7.202582270447655
+2022-07-19 16:09:33,024 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: nik@gmail.com, price change %: 6.938717804083994
+2022-07-19 16:09:33,025 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: alex1@gmail.com, price change %: 12.651728639047487
+2022-07-19 16:09:33,026 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: k@gmail.com, price change %: 10.811450000000011
+2022-07-19 16:09:33,027 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new1@gmail.com, price change %: 6.593902362186532
+2022-07-19 16:09:33,028 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new2@gmail.com, price change %: 6.623133385901703
+2022-07-19 16:09:33,030 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new3@gmail.com, price change %: 6.652996345972362
+2022-07-19 16:09:35,820 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 48543, user: nik2@gmail.com, price change %: 55.684840425531924
+2022-07-19 16:10:41,052 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: alex2@gmail.com, price change %: 7.114787784038135
+2022-07-19 16:10:41,053 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: nik@gmail.com, price change %: 6.851139411772356
+2022-07-19 16:10:41,054 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: alex1@gmail.com, price change %: 12.559471526862831
+2022-07-19 16:10:41,055 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: k@gmail.com, price change %: 10.720700000000004
+2022-07-19 16:10:41,055 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new1@gmail.com, price change %: 6.506606359477707
+2022-07-19 16:10:41,056 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new2@gmail.com, price change %: 6.535813444191962
+2022-07-19 16:10:41,057 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new3@gmail.com, price change %: 6.565651947731954
+2022-07-19 16:10:42,032 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 48543, user: nik2@gmail.com, price change %: 55.684840425531924
+2022-07-19 16:11:42,615 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: alex2@gmail.com, price change %: 7.114787784038135
+2022-07-19 16:11:42,615 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: nik@gmail.com, price change %: 6.851139411772356
+2022-07-19 16:11:42,615 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: alex1@gmail.com, price change %: 12.559471526862831
+2022-07-19 16:11:42,615 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: k@gmail.com, price change %: 10.720700000000004
+2022-07-19 16:11:42,616 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new1@gmail.com, price change %: 6.506606359477707
+2022-07-19 16:11:42,616 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new2@gmail.com, price change %: 6.535813444191962
+2022-07-19 16:11:42,616 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new3@gmail.com, price change %: 6.565651947731954
+2022-07-19 16:11:43,576 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 48543, user: nik2@gmail.com, price change %: 55.684840425531924
+2022-07-19 16:12:49,277 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: alex2@gmail.com, price change %: 7.114787784038135
+2022-07-19 16:12:49,279 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: nik@gmail.com, price change %: 6.851139411772356
+2022-07-19 16:12:49,279 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: alex1@gmail.com, price change %: 12.559471526862831
+2022-07-19 16:12:49,280 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: k@gmail.com, price change %: 10.720700000000004
+2022-07-19 16:12:49,281 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new1@gmail.com, price change %: 6.506606359477707
+2022-07-19 16:12:49,281 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new2@gmail.com, price change %: 6.535813444191962
+2022-07-19 16:12:49,282 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new3@gmail.com, price change %: 6.565651947731954
+2022-07-19 16:12:50,546 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 48543, user: nik2@gmail.com, price change %: 55.45212765957448
+2022-07-19 16:13:51,349 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: alex2@gmail.com, price change %: 7.114787784038135
+2022-07-19 16:13:51,350 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: nik@gmail.com, price change %: 6.851139411772356
+2022-07-19 16:13:51,351 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: alex1@gmail.com, price change %: 12.559471526862831
+2022-07-19 16:13:51,351 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: k@gmail.com, price change %: 10.720700000000004
+2022-07-19 16:13:51,352 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new1@gmail.com, price change %: 6.506606359477707
+2022-07-19 16:13:51,352 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new2@gmail.com, price change %: 6.535813444191962
+2022-07-19 16:13:51,353 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new3@gmail.com, price change %: 6.565651947731954
+2022-07-19 16:13:51,967 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 48543, user: nik2@gmail.com, price change %: 55.45212765957448
+2022-07-19 16:14:52,422 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: alex2@gmail.com, price change %: 7.165626354405319
+2022-07-19 16:14:52,422 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: nik@gmail.com, price change %: 6.90185284996494
+2022-07-19 16:14:52,423 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: alex1@gmail.com, price change %: 12.612894240309714
+2022-07-19 16:14:52,423 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: k@gmail.com, price change %: 10.77325
+2022-07-19 16:14:52,423 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new1@gmail.com, price change %: 6.5571562761978175
+2022-07-19 16:14:52,423 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new2@gmail.com, price change %: 6.586377223110396
+2022-07-19 16:14:52,423 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new3@gmail.com, price change %: 6.616229888531233
+2022-07-19 16:14:53,328 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 48543, user: nik2@gmail.com, price change %: 55.2526595744681
+2022-07-19 16:15:53,874 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: alex2@gmail.com, price change %: 7.165626354405319
+2022-07-19 16:15:53,875 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: nik@gmail.com, price change %: 6.90185284996494
+2022-07-19 16:15:53,876 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: alex1@gmail.com, price change %: 12.612894240309714
+2022-07-19 16:15:53,877 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: k@gmail.com, price change %: 10.77325
+2022-07-19 16:15:53,878 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new1@gmail.com, price change %: 6.5571562761978175
+2022-07-19 16:15:53,878 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new2@gmail.com, price change %: 6.586377223110396
+2022-07-19 16:15:53,879 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new3@gmail.com, price change %: 6.616229888531233
+2022-07-19 16:15:54,404 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 48543, user: nik2@gmail.com, price change %: 55.2526595744681
+2022-07-19 16:24:01,764 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-19 16:24:02,886 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: alex2@gmail.com, price change %: 7.003726549439682
+2022-07-19 16:24:02,887 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: nik@gmail.com, price change %: 6.7403515391842195
+2022-07-19 16:24:02,887 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: alex1@gmail.com, price change %: 12.442765009190149
+2022-07-19 16:24:02,888 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: k@gmail.com, price change %: 10.605900000000013
+2022-07-19 16:24:02,888 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: new1@gmail.com, price change %: 6.396175713626784
+2022-07-19 16:24:02,888 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: new2@gmail.com, price change %: 6.425352515175153
+2022-07-19 16:24:02,888 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: new3@gmail.com, price change %: 6.455160080866951
+2022-07-19 16:24:03,457 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 48543, user: nik2@gmail.com, price change %: 55.385638297872354
+2022-07-19 16:25:04,649 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: alex2@gmail.com, price change %: 7.003726549439682
+2022-07-19 16:25:04,650 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: nik@gmail.com, price change %: 6.7403515391842195
+2022-07-19 16:25:04,650 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: alex1@gmail.com, price change %: 12.442765009190149
+2022-07-19 16:25:04,650 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: k@gmail.com, price change %: 10.605900000000013
+2022-07-19 16:25:04,650 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: new1@gmail.com, price change %: 6.396175713626784
+2022-07-19 16:25:04,651 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: new2@gmail.com, price change %: 6.425352515175153
+2022-07-19 16:25:04,651 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 90, user: new3@gmail.com, price change %: 6.455160080866951
+2022-07-19 16:25:05,683 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler1] crypto id: 48543, user: nik2@gmail.com, price change %: 55.385638297872354
+2022-07-19 16:26:06,396 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: alex2@gmail.com, price change %: 7.282201953439427
+2022-07-19 16:26:06,397 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: nik@gmail.com, price change %: 7.018141514136311
+2022-07-19 16:26:06,397 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: alex1@gmail.com, price change %: 12.73539541957418
+2022-07-19 16:26:06,397 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: k@gmail.com, price change %: 10.89374999999999
+2022-07-19 16:26:06,399 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new1@gmail.com, price change %: 6.673069976764334
+2022-07-19 16:26:06,399 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new2@gmail.com, price change %: 6.702322710449482
+2022-07-19 16:26:06,399 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new3@gmail.com, price change %: 6.732207849831151
+2022-07-19 16:26:06,972 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 48543, user: nik2@gmail.com, price change %: 55.75132978723405
+2022-07-19 16:27:07,447 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: alex2@gmail.com, price change %: 7.282201953439427
+2022-07-19 16:27:07,449 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: nik@gmail.com, price change %: 7.018141514136311
+2022-07-19 16:27:07,450 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: alex1@gmail.com, price change %: 12.73539541957418
+2022-07-19 16:27:07,451 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: k@gmail.com, price change %: 10.89374999999999
+2022-07-19 16:27:07,452 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new1@gmail.com, price change %: 6.673069976764334
+2022-07-19 16:27:07,453 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new2@gmail.com, price change %: 6.702322710449482
+2022-07-19 16:27:07,454 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 90, user: new3@gmail.com, price change %: 6.732207849831151
+2022-07-19 16:27:08,164 WARN com.idftechnology.crypto_service.service.UserService [ThreadPoolTaskScheduler2] crypto id: 48543, user: nik2@gmail.com, price change %: 55.75132978723405
+2022-07-19 16:27:35,140 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [D:\new job\crypto_currency_watcher\crypto-service\crypto-service\target\classes\com\idftechnology\crypto_service\controller\UserController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService' defined in file [D:\new job\crypto_currency_watcher\crypto-service\crypto-service\target\classes\com\idftechnology\crypto_service\service\UserService.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'restService' defined in file [D:\new job\crypto_currency_watcher\crypto-service\crypto-service\target\classes\com\idftechnology\crypto_service\service\RestService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-07-19 16:27:35,189 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.idftechnology.crypto_service.service.RestService required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+

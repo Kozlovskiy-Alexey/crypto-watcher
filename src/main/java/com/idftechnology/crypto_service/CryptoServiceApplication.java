@@ -11,5 +11,4 @@ public class CryptoServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CryptoServiceApplication.class, args);
 	}
-
 }
