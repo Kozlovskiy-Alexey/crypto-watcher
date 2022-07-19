@@ -4,8 +4,6 @@ spring:
     url: jdbc:postgresql://localhost:5432/idf_crypto_service?currentSchema=crypto_watcher
     username: postgres
     password: postgres
-  jpa:
-    show-sql: true
 
 server:
   port: 8080

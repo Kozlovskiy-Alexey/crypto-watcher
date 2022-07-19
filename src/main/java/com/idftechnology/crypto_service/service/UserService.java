@@ -13,6 +13,7 @@ import com.idftechnology.crypto_service.repository.IUserRepository;
 import com.idftechnology.crypto_service.service.api.IRestService;
 import com.idftechnology.crypto_service.service.api.IUserService;
 import com.idftechnology.crypto_service.service.util.PriceChecker;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -24,6 +25,7 @@ import java.util.stream.Collectors;
 @Slf4j
 @Service
 @Transactional(readOnly = true)
+@RequiredArgsConstructor
 public class UserService implements IUserService {
 
     private final IUserRepository userRepository;
@@ -31,15 +33,6 @@ public class UserService implements IUserService {
     private final IRestService restService;
     private final ICryptoRepository cryptoRepository;
     private final UserDtoValidator userDtoValidator;
-
-    public UserService(IUserRepository userRepository, UserDtoToEntityMapper userDtoToEntityMapper,
-                       IRestService restService, ICryptoRepository cryptoRepository, UserDtoValidator userDtoValidator) {
-        this.userRepository = userRepository;
-        this.userDtoToEntityMapper = userDtoToEntityMapper;
-        this.restService = restService;
-        this.cryptoRepository = cryptoRepository;
-        this.userDtoValidator = userDtoValidator;
-    }
 
     @Override
     @Transactional

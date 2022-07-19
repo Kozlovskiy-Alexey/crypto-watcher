@@ -7,5 +7,5 @@ import org.springframework.data.jpa.repository.Query;
 public interface IEthereumRepository extends JpaRepository<Ethereum, Long> {
 
     @Query(value = "SELECT * FROM crypto_watcher.eth_price ORDER BY eth_price.id DESC LIMIT 1", nativeQuery = true)
-    Ethereum findCryptoWitLastPrice();
+    Ethereum findCryptoWithLastPrice();
 }

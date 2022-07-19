@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 public interface IBitcoinRepository extends JpaRepository<Bitcoin, Long> {
 
     @Query(value = "SELECT * FROM crypto_watcher.btc_price ORDER BY btc_price.id DESC LIMIT 1", nativeQuery = true)
-    Bitcoin findCryptoWitLastPrice();
+    Bitcoin findCryptoWithLastPrice();
 
 
 }

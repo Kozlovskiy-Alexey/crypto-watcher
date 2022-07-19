@@ -6,10 +6,12 @@ import com.idftechnology.crypto_service.repository.ICryptoRepository;
 import com.idftechnology.crypto_service.service.api.ICryptoService;
 import com.idftechnology.crypto_service.service.api.IRestService;
 import com.idftechnology.crypto_service.service.api.IUserService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
+@RequiredArgsConstructor
 public class ScheduleCryptoJobTask implements Runnable {
 
     @Value(value = "${percent.price.change}")
@@ -19,14 +21,6 @@ public class ScheduleCryptoJobTask implements Runnable {
     private final ICryptoRepository cryptoRepository;
     private final IRestService restService;
     private final IUserService userService;
-
-    public ScheduleCryptoJobTask(ICryptoService cryptoService, ICryptoRepository cryptoRepository,
-                                 IRestService restService, IUserService userService) {
-        this.cryptoService = cryptoService;
-        this.cryptoRepository = cryptoRepository;
-        this.restService = restService;
-        this.userService = userService;
-    }
 
     @Override
     public void run() {

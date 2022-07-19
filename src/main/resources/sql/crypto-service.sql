@@ -1,6 +1,6 @@
-CREATE DATABASE idf_crypto_service;
+-- CREATE DATABASE idf_crypto_service;
 
-CREATE TABLE crypto_watcher.crypto
+CREATE TABLE IF NOT EXISTS crypto_watcher.crypto
 (
     id          INT PRIMARY KEY,
     symbol      VARCHAR(32) UNIQUE,
@@ -13,7 +13,7 @@ VALUES (90, 'BTC', 'Bitcoin', 'bitcoin'),
        (80, 'ETH', 'Ethereum', 'ethereum'),
        (48543, 'SOL', 'Solana', 'solana');
 
-CREATE TABLE crypto_watcher.btc_price
+CREATE TABLE IF NOT EXISTS crypto_watcher.btc_price
 (
     id                 BIGSERIAL PRIMARY KEY,
     crypto_id          INT REFERENCES crypto_watcher.crypto (id),
@@ -31,7 +31,7 @@ CREATE TABLE crypto_watcher.btc_price
     msupply            DECIMAL(19,2)
 );
 
-CREATE TABLE crypto_watcher.eth_price
+CREATE TABLE IF NOT EXISTS crypto_watcher.eth_price
 (
     id                 BIGSERIAL PRIMARY KEY,
     crypto_id          INT REFERENCES crypto_watcher.crypto (id),
@@ -50,7 +50,7 @@ CREATE TABLE crypto_watcher.eth_price
 );
 
 
-CREATE TABLE crypto_watcher.sol_price
+CREATE TABLE IF NOT EXISTS crypto_watcher.sol_price
 (
     id                 BIGSERIAL PRIMARY KEY,
     crypto_id          INT REFERENCES crypto_watcher.crypto (id),
@@ -69,17 +69,17 @@ CREATE TABLE crypto_watcher.sol_price
 );
 
 
-CREATE TABLE crypto_watcher.users
+CREATE TABLE IF NOT EXISTS crypto_watcher.users
 (
     id          VARCHAR(128) PRIMARY KEY,
     symbol      VARCHAR(32) REFERENCES crypto_watcher.crypto (symbol),
     entry_price DECIMAL(19,2)
 );
 
-DROP TABLE crypto_watcher.users;
-DROP TABLE crypto_watcher.crypto;
-DROP TABLE crypto_watcher.btc_price;
-DROP TABLE crypto_watcher.eth_price;
-DROP TABLE crypto_watcher.sol_price;
+-- DROP TABLE crypto_watcher.users;
+-- DROP TABLE crypto_watcher.crypto;
+-- DROP TABLE crypto_watcher.btc_price;
+-- DROP TABLE crypto_watcher.eth_price;
+-- DROP TABLE crypto_watcher.sol_price;
 
 

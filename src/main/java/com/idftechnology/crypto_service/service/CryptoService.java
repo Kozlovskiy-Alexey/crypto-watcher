@@ -7,6 +7,7 @@ import com.idftechnology.crypto_service.entity.*;
 import com.idftechnology.crypto_service.repository.*;
 import com.idftechnology.crypto_service.service.api.CryptoId;
 import com.idftechnology.crypto_service.service.api.ICryptoService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -18,6 +19,7 @@ import java.util.stream.Collectors;
 
 @Service
 @Transactional(readOnly = true)
+@RequiredArgsConstructor
 public class CryptoService implements ICryptoService {
 
     private final ICryptoRepository cryptoRepository;
@@ -28,21 +30,6 @@ public class CryptoService implements ICryptoService {
     private final CryptoDtoToBitcoinEntityMapper bitcoinEntityMapper;
     private final CryptoDtoToEthereumEntityMapper ethereumEntityMapper;
     private final CryptoDtoToSolanaEntityMapper solanaEntityMapper;
-
-    public CryptoService(ICryptoRepository cryptoRepository, CryptoCurrencyDtoToEntityMapper dtoToEntityMapper,
-                         IBitcoinRepository bitcoinRepository, IEthereumRepository ethereumRepository,
-                         ISolanaRepository solanaRepository, CryptoDtoToBitcoinEntityMapper bitcoinEntityMapper,
-                         CryptoDtoToEthereumEntityMapper ethereumEntityMapper,
-                         CryptoDtoToSolanaEntityMapper solanaEntityMapper) {
-        this.cryptoRepository = cryptoRepository;
-        this.dtoToEntityMapper = dtoToEntityMapper;
-        this.bitcoinRepository = bitcoinRepository;
-        this.ethereumRepository = ethereumRepository;
-        this.solanaRepository = solanaRepository;
-        this.bitcoinEntityMapper = bitcoinEntityMapper;
-        this.ethereumEntityMapper = ethereumEntityMapper;
-        this.solanaEntityMapper = solanaEntityMapper;
-    }
 
     @Override
     public CryptoPageDto getCryptoPage(int page, int size) {
@@ -66,13 +53,13 @@ public class CryptoService implements ICryptoService {
     @Override
     public CryptoDto get(int id) {
         if (id == CryptoId.BTC.getId()) {
-            Bitcoin entity = bitcoinRepository.findCryptoWitLastPrice();
+            Bitcoin entity = bitcoinRepository.findCryptoWithLastPrice();
             return bitcoinEntityMapper.entityToDto(entity);
         } else if (id == CryptoId.ETH.getId()) {
-            Ethereum entity = ethereumRepository.findCryptoWitLastPrice();
+            Ethereum entity = ethereumRepository.findCryptoWithLastPrice();
             return ethereumEntityMapper.entityToDto(entity);
         } else if (id == CryptoId.SOL.getId()) {
-            Solana entity = solanaRepository.findCryptoWitLastPrice();
+            Solana entity = solanaRepository.findCryptoWithLastPrice();
             return solanaEntityMapper.entityToDto(entity);
         } else {
             throw new IllegalArgumentException("Crypto id not found.");
